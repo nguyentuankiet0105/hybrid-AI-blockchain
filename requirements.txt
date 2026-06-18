@@ -1,0 +1,54 @@
+# Web framework
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+python-multipart==0.0.9
+
+# Database
+sqlalchemy[asyncio]==2.0.30
+asyncpg==0.29.0
+alembic==1.13.1
+psycopg2-binary==2.9.9
+
+# Redis
+redis[asyncio]==5.0.4
+
+# Auth
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# Validation
+pydantic==2.7.1
+pydantic-settings==2.3.0
+email-validator==2.1.1
+
+# AI / ML
+scikit-learn==1.5.0
+numpy==1.26.4
+pandas==2.2.2
+joblib==1.4.2
+
+# Blockchain
+web3==6.19.0
+
+# LangChain / Copilot
+langchain==0.2.5
+langchain-openai==0.1.8
+langchain-community==0.2.5
+chromadb==0.5.0
+openai==1.30.5
+tiktoken==0.7.0
+
+# HTTP client
+httpx==0.27.0
+aiohttp==3.9.5
+
+# MQTT
+paho-mqtt==2.0.0
+
+# Utilities
+python-dotenv==1.0.1
+structlog==24.2.0
+orjson==3.10.3
+tenacity==8.3.0
+pytz==2024.1
+cryptography==42.0.8
